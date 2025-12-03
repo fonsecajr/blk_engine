@@ -1,8 +1,10 @@
 ## BLK — Delta Engine for Massive Game & Asset Pipelines
 
-![Main UI](assets/image_ed3964.png)
+![BLK Main UI](assets/190451.png)
 
-**BLK** is a high-precision delta snapshot engine designed for massive game folders, mod workflows, and creative pipelines. It solves the problem of maintaining "perfect states" in unstable environments.
+![BLK diff view](190547.png)
+
+**BLK** is a high-precision, delta snapshot engine designed for massive game folders, mod workflows, and creative pipelines. It solves the problem of maintaining "perfect states" in unstable environments.
 
 ---
 
@@ -11,7 +13,7 @@
 Imagine yourself in **Assetto Corsa**. You have finally achieved the perfect setup:
 
 > **Content Manager 0.8 + CSP 0.2.11 + PURE 0.2.57-P1**
-> **+ BreakneckFX + DroneCam 1.2.2 + Telemetrick 1.7**
+> **+ BreakneckFX + DroneCam 1.2.2 + Extended Controlls + Telemetrick 1.7**
 
 You are at **Spa Francorchamps** in your **VRC F1 Formula Alpha 2025**. The lighting is perfect. The physics are dialed in. It is the "State of the Art".
 
@@ -34,7 +36,7 @@ BLK was created from a simple, painful truth: **When a game or asset pipeline gr
 
 * **Steam** only repairs the base folder (Vanilla).
 * **Mod Managers** often overwrite files destructively.
-* **Traditional Backups** copy the entire 100 GB for every small change.
+* **Traditional Backups** weren’t built for this. They’re not click-and-play, and they often re-copy the entire 100 GB install just because a small change was made.
 * **Git** chokes on massive binary trees.
 
 BLK solves this by introducing **Global State Management**:
