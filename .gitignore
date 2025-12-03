@@ -1,0 +1,21 @@
+# Rust / Cargo
+/target/
+
+# Binaries gerados
+*.exe
+*.dll
+*.pdb
+
+# Arquivos de empacotamento / backups
+*.7z
+*.zip
+*.tar
+*.tar.gz
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Lixo de SO
+.DS_Store
+Thumbs.db
