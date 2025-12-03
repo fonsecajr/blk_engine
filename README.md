@@ -2,7 +2,7 @@
 
 ![BLK Main UI](assets/190451.png)
 
-![BLK diff view](190547.png)
+![BLK diff view](assets/190547.png)
 
 **BLK** is a high-precision, delta snapshot engine designed for massive game folders, mod workflows, and creative pipelines. It solves the problem of maintaining "perfect states" in unstable environments.
 
