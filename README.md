@@ -49,7 +49,6 @@ BLK solves this by introducing **Global State Management**:
 
 You don't just "backup" files. You manage parallel worlds:
 
-```text
 Vanilla (Base Game)
 ├── 📂 F1 Season Profile (Saved State)
 │   ├── CSP 0.2.11 + Pure 0.2.57
@@ -103,4 +102,5 @@ Use the [C]onfig menu to add external folders (like Documents) using the format 
 ## 📜 License
 
 BLK is released under the MIT License.  
+
 See [`LICENSE`](./LICENSE) for the full text.
