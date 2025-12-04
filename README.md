@@ -49,6 +49,7 @@ BLK solves this by introducing **Global State Management**:
 
 You don't just "backup" files. You manage parallel worlds:
 
+```text
 Vanilla (Base Game)
 ├── 📂 F1 Season Profile (Saved State)
 │   ├── CSP 0.2.11 + Pure 0.2.57
@@ -59,6 +60,7 @@ Vanilla (Base Game)
     ├── CSP 0.2.3 preview + Pure 3.04
     ├── Traffic Planner + 50 JDM Cars
     └── (Different graphics settings & controls)
+```
 
 ## ☢ Destructive by Design
 
@@ -104,3 +106,4 @@ Use the [C]onfig menu to add external folders (like Documents) using the format 
 BLK is released under the MIT License.  
 
 See [`LICENSE`](./LICENSE) for the full text.
+
